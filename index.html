@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waterside Outreach Report</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+  .header { background: linear-gradient(135deg, #0f4c75 0%, #1b6ca8 50%, #3282b8 100%); color: white; padding: 40px; border-radius: 12px; margin-bottom: 30px; text-align: center; }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header p { font-size: 14px; opacity: 0.85; }
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 30px; }
+  .kpi { background: white; border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .kpi .number { font-size: 32px; font-weight: 700; color: #0f4c75; }
+  .kpi .label { font-size: 12px; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
+  .section { background: white; border-radius: 10px; padding: 30px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .section h2 { font-size: 20px; color: #0f4c75; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
+  .section h3 { font-size: 16px; color: #2d3748; margin: 16px 0 10px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #0f4c75; color: white; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; }
+  td { padding: 9px 12px; border-bottom: 1px solid #e2e8f0; }
+  tr:hover { background: #f7fafc; }
+  .highlight { background: #ebf8ff !important; font-weight: 600; }
+  .insight { background: #ebf8ff; border-left: 4px solid #3282b8; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; }
+  .insight strong { color: #0f4c75; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+  .tag-green { background: #c6f6d5; color: #22543d; }
+  .tag-red { background: #fed7d7; color: #742a2a; }
+  .tag-blue { background: #bee3f8; color: #2a4365; }
+  .tag-yellow { background: #fefcbf; color: #744210; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 768px) { .kpi-row { grid-template-columns: repeat(2, 1fr); } .two-col { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>Waterside Outreach Report</h1>
+  <p>Cold Email Campaign Performance Analysis &bull; January - March 2026</p>
+</div>
+
+<div class="kpi-row">
+  <div class="kpi">
+    <div class="number">22,728</div>
+    <div class="label">Total Leads</div>
+  </div>
+  <div class="kpi">
+    <div class="number">978</div>
+    <div class="label">Total Replies</div>
+  </div>
+  <div class="kpi">
+    <div class="number">4.3%</div>
+    <div class="label">Reply Rate</div>
+  </div>
+  <div class="kpi">
+    <div class="number">36</div>
+    <div class="label">Positive Replies</div>
+  </div>
+</div>
+
+<div class="kpi-row">
+  <div class="kpi">
+    <div class="number">11</div>
+    <div class="label">Calls Booked</div>
+  </div>
+  <div class="kpi">
+    <div class="number">3.7%</div>
+    <div class="label">Reply-to-Positive Rate</div>
+  </div>
+  <div class="kpi">
+    <div class="number">12</div>
+    <div class="label">Campaigns</div>
+  </div>
+  <div class="kpi">
+    <div class="number">45,457</div>
+    <div class="label">Emails Sent</div>
+  </div>
+</div>
+
+<!-- SECTION 1: CAMPAIGN PERFORMANCE -->
+<div class="section">
+  <h2>1. Campaign Performance</h2>
+  <p style="margin-bottom: 16px; color: #718096;">Campaigns are grouped into three categories: UK-targeted, US, and Website (generic email outreach). Reply rates are calculated per lead (2 emails sent per lead).</p>
+
+  <h3>Overview by Campaign Type</h3>
+  <table>
+    <tr><th>Campaign Type</th><th>Leads</th><th>Replied</th><th>Positive</th><th>Positive Reply Rate</th></tr>
+    <tr class="highlight"><td><span class="tag tag-blue">UK Campaigns</span></td><td>3,327</td><td>154</td><td>31</td><td><strong>20.1%</strong></td></tr>
+    <tr><td><span class="tag tag-yellow">US Campaigns</span></td><td>13,204</td><td>221</td><td>16</td><td>7.2%</td></tr>
+    <tr><td><span class="tag tag-green">Website Campaigns</span></td><td>6,195</td><td>603</td><td>12</td><td>2.0%</td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> UK campaigns convert replies to positives at <strong>20.1%</strong> — nearly 3x the rate of US (7.2%) and 10x Website campaigns (2.0%). While Website campaigns drive the highest reply volume (9.7% reply rate), the quality of those replies is significantly lower. UK-targeted outreach is the clear winner for generating qualified interest.
+  </div>
+
+</div>
+
+<!-- SECTION 2: JOB TITLE RECEPTIVITY -->
+<div class="section">
+  <h2>2. Job Title Receptivity</h2>
+  <p style="margin-bottom: 12px; color: #718096;">Analysis covers UK and US campaigns only. Website campaigns use generic emails (info@, hello@) with no associated job titles.</p>
+
+  <div class="two-col">
+    <div>
+      <h3 style="color: #276749;">Interested / Meeting Booked</h3>
+      <table>
+        <tr><th>Job Title</th><th>Count</th><th>Group</th></tr>
+        <tr><td>Founder</td><td>3</td><td><span class="tag tag-yellow">US</span></td></tr>
+        <tr><td>Owner</td><td>2</td><td><span class="tag tag-blue">UK</span></td></tr>
+        <tr><td>Founder & CEO / Founder and CEO</td><td>2</td><td><span class="tag tag-yellow">US</span></td></tr>
+        <tr><td>Co-Founder, President, and CEO</td><td>1</td><td><span class="tag tag-yellow">US</span></td></tr>
+        <tr><td>Chief Operating Officer</td><td>1</td><td><span class="tag tag-yellow">US</span></td></tr>
+        <tr><td>Co-founder</td><td>1</td><td><span class="tag tag-blue">UK</span></td></tr>
+        <tr><td>General Manager</td><td>1</td><td><span class="tag tag-blue">UK</span></td></tr>
+      </table>
+    </div>
+    <div>
+      <h3 style="color: #9b2c2c;">Not Interested</h3>
+      <table>
+        <tr><th>Job Title</th><th>Count</th></tr>
+        <tr><td>CEO / CEO & Founder</td><td>3</td></tr>
+        <tr><td>Founder (various)</td><td>3</td></tr>
+        <tr><td>Co-founder (various)</td><td>3</td></tr>
+        <tr><td>President and Founder</td><td>2</td></tr>
+        <tr><td>Owner</td><td>1</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> Founders and Owners dominate both interested and not-interested groups — these are the right decision-makers for 3PL services. The targeting is correct. UK Owners and Co-founders showed stronger conversion to interest compared to US-based founders, where more declined.
+  </div>
+
+  <h3>All Replies by Job Title (UK & US only)</h3>
+  <table>
+    <tr><th>Job Title</th><th>Replies</th><th>Positive</th><th>Conversion</th></tr>
+    <tr><td>Founder (all variants)</td><td>20</td><td>5</td><td><strong>25.0%</strong></td></tr>
+    <tr><td>Owner / Business Owner</td><td>12</td><td>3</td><td><strong>25.0%</strong></td></tr>
+    <tr><td>CEO (all variants)</td><td>10</td><td>2</td><td>20.0%</td></tr>
+    <tr><td>Co-founder (all variants)</td><td>4</td><td>1</td><td>25.0%</td></tr>
+    <tr><td>C-Suite (CFO, COO)</td><td>8</td><td>1</td><td>12.5%</td></tr>
+    <tr><td>Operations / Supply Chain</td><td>7</td><td>1</td><td>14.3%</td></tr>
+    <tr><td>Managing Director</td><td>5</td><td>0</td><td>0.0%</td></tr>
+  </table>
+</div>
+
+<!-- SECTION 3: INDUSTRY ANALYSIS -->
+<div class="section">
+  <h2>3. Industry Analysis</h2>
+
+  <table>
+    <tr><th>Industry</th><th>Contacted</th><th>Replied</th><th>Reply Rate</th><th>Positive</th><th>Negative</th></tr>
+    <tr><td>Health & Wellness</td><td>4,308</td><td>108</td><td>2.5%</td><td>7</td><td>11</td></tr>
+    <tr><td>Pet Products</td><td>2,063</td><td>77</td><td>3.7%</td><td>3</td><td>4</td></tr>
+    <tr class="highlight"><td>Food & Beverage</td><td>1,481</td><td>52</td><td>3.5%</td><td>1</td><td>4</td></tr>
+    <tr class="highlight"><td>Beauty & Personal Care</td><td>1,476</td><td>55</td><td>3.7%</td><td>2</td><td>2</td></tr>
+    <tr><td>Stationery & Art</td><td>544</td><td>15</td><td>2.8%</td><td>1</td><td>1</td></tr>
+    <tr><td>Sports & Outdoors</td><td>376</td><td>16</td><td>4.3%</td><td>1</td><td>2</td></tr>
+    <tr class="highlight"><td>Fashion & Accessories</td><td>140</td><td>6</td><td><strong>4.3%</strong></td><td>2</td><td>0</td></tr>
+    <tr><td>Tech & Industrial</td><td>45</td><td>4</td><td>8.9%</td><td>1</td><td>0</td></tr>
+    <tr><td>CBD/Cannabis</td><td>93</td><td>6</td><td>6.5%</td><td>0</td><td>0</td></tr>
+    <tr><td>Other/General E-commerce</td><td>389</td><td>31</td><td>8.0%</td><td>0</td><td>0</td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> Health & Wellness is the largest vertical (4,308 contacted) but has the lowest reply rate (2.5%) and the most negative responses (11). <strong>Beauty & Personal Care</strong> and <strong>Fashion & Accessories</strong> show the best interest-to-negative ratios — these verticals are more receptive to 3PL outreach. Pet Products generates good reply volume (3.7%) but has a higher negative rate.
+  </div>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> Fashion & Accessories, despite a small sample (140 contacted), had 2 positives and 0 negatives — a <strong>33% reply-to-positive conversion rate</strong>. This vertical warrants further testing with a larger campaign.
+  </div>
+</div>
+
+<!-- SECTION 4: INTERESTED LEADS -->
+<div class="section">
+  <h2>4. Interested Leads by Campaign</h2>
+  <p style="margin-bottom: 12px; color: #718096;">After filtering out 41 auto-replies and marketing emails from 95 Instantly-tagged "interested" leads, 54 showed genuine interest. Status reflects client qualification outcomes.</p>
+
+  <h3><span class="tag tag-blue">UK Campaigns</span> — 35 Leads</h3>
+  <table>
+    <tr><th>#</th><th>Company</th><th>Job Title</th><th>Campaign</th><th>Status</th></tr>
+    <tr><td>1</td><td><strong>1to1 Music</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>2</td><td><strong>6percent.wine</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>3</td><td><strong>alltiedupuk.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>4</td><td><strong>arthurjack.co.uk</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>5</td><td><strong>Bamboo Family</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>6</td><td><strong>Beau Products</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>7</td><td><strong>beautyspaceinteriors.co.uk</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>8</td><td><strong>Bedable</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>9</td><td><strong>bikeboxalan@gmail.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>10</td><td><strong>brewitalia.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>11</td><td><strong>britishpharmacare.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>12</td><td><strong>Bulldog Gear</strong></td><td>Managing Director</td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>13</td><td><strong>buycarvings.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>14</td><td><strong>Coco Chocolatier</strong></td><td>Head Of Operations</td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>15</td><td><strong>Cocoa Bacha Chocolate</strong></td><td>Founder And Chief Chocoholic</td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>16</td><td><strong>Dapper Dan</strong></td><td></td><td>Feb 27 (copy)</td><td><span class="tag tag-blue">Working</span></td></tr>
+    <tr><td>17</td><td><strong>distinctivewash.co.uk</strong></td><td>Owner</td><td>Beauty | UK</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>18</td><td><strong>edinco.co.uk</strong></td><td>Owner</td><td>Beauty | UK</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>19</td><td><strong>Fold Reformer</strong></td><td>Co-founder</td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>20</td><td><strong>Hormona</strong></td><td>COO & Co-founder</td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-blue">Working</span></td></tr>
+    <tr><td>21</td><td><strong>hurleyburley.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>22</td><td><strong>Kirk & Kirk</strong></td><td>Managing Director</td><td>Beauty | UK</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>23</td><td><strong>kiyobeauty.com</strong></td><td></td><td>Feb 27 (copy)</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>24</td><td><strong>kollohealth.com</strong></td><td></td><td>Feb 27 (copy)</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>25</td><td><strong>Live Hermosa</strong></td><td>Chief Executive Officer</td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-blue">Working</span></td></tr>
+    <tr><td>26</td><td><strong>Madekind</strong></td><td>Co-founder</td><td>Beauty | UK</td><td><span class="tag tag-blue">Working</span></td></tr>
+    <tr><td>27</td><td><strong>Mr Bongo</strong></td><td>Founder & Managing Director</td><td>Beauty | UK</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>28</td><td><strong>Pink Equine</strong></td><td>Managing Partner</td><td>Beauty | UK</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>29</td><td><strong>plantmebotanics.com</strong></td><td>CEO</td><td>Beauty | UK</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>30</td><td><strong>Seven Bro7hers</strong></td><td>Founder & Owner</td><td>Beauty | UK | Not yet selling</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>31</td><td><strong>stantonbikes.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>32</td><td><strong>syltpickling.co.uk</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>33</td><td><strong>Testament Collection</strong></td><td>Chief Executive Officer</td><td>Beauty | UK</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>34</td><td><strong>theprofilesrange@gmail.com</strong></td><td></td><td>Beauty | UK | Not yet selling</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>35</td><td><strong>Vava Verve</strong></td><td></td><td>Feb 27 (copy)</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+  </table>
+
+  <h3><span class="tag tag-yellow">US Campaigns</span> — 14 Leads</h3>
+  <table>
+    <tr><th>#</th><th>Company</th><th>Job Title</th><th>Campaign</th><th>Status</th></tr>
+    <tr><td>36</td><td><strong>Blue Scorpion</strong></td><td>Co-Founder, President, and CEO</td><td>Health & Wellness | Jan 5</td><td><span class="tag tag-blue">Working</span></td></tr>
+    <tr><td>37</td><td><strong>CBDfx</strong></td><td>Chief Operating Officer</td><td>Health & Wellness | Jan 5</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>38</td><td><strong>Crown Fertility</strong></td><td>Founder & CEO</td><td>Health & Wellness | Jan 5</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>39</td><td><strong>DermaPro, Inc.</strong></td><td>Founder and CEO</td><td>Health & Wellness | Jan 5</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>40</td><td><strong>Educated Beards Inc.</strong></td><td>Chief Executive Officer</td><td>US presence</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>41</td><td><strong>horacioprinting.com</strong></td><td>Founder</td><td>Jan 20 | Beauty</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>42</td><td><strong>Mychondria</strong></td><td>Founder</td><td>Health & Wellness | Jan 5</td><td><span class="tag tag-green">Won</span></td></tr>
+    <tr><td>43</td><td><strong>Novoqueen Pro</strong></td><td>Owner</td><td>US presence</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>44</td><td><strong>Rthvi - Proactive Hair Wellness</strong></td><td>Founder</td><td>Health & Wellness | Jan 5</td><td><span class="tag" style="background:#e2e8f0;color:#4a5568;">New</span></td></tr>
+    <tr><td>45</td><td><strong>Spring AI</strong></td><td>CEO & Design Founder</td><td>Jan 15</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>46</td><td><strong>Stencil Revolution</strong></td><td>Co-owner</td><td>Jan 20 | Beauty</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>47</td><td><strong>Tina Mattern Skincare</strong></td><td>Chief Executive Officer</td><td>Health & Wellness | Jan 5</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>48</td><td><strong>Truly Clear</strong></td><td>Founder/CEO</td><td>Health & Wellness | Jan 5</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>49</td><td><strong>Wag Tantrum</strong></td><td>Co-founder/COO</td><td>Jan 20 | Beauty</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+  </table>
+
+  <h3><span class="tag tag-green">Website Campaigns</span> — 5 Leads</h3>
+  <table>
+    <tr><th>#</th><th>Company</th><th>Job Title</th><th>Campaign</th><th>Status</th></tr>
+    <tr><td>50</td><td><strong>Dr. Tim's</strong></td><td></td><td>Website</td><td><span class="tag tag-red">Lost</span></td></tr>
+    <tr><td>51</td><td><strong>Little Bay Boards</strong></td><td></td><td>Feb 18 | Website</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>52</td><td><strong>Skyview Tents</strong></td><td></td><td>Feb 18 | Website</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+    <tr><td>53</td><td><strong>The Blessed Seed</strong></td><td></td><td>Feb 18 | Website</td><td><span class="tag tag-blue">Working</span></td></tr>
+    <tr><td>54</td><td><strong>The Putting Board</strong></td><td></td><td>Feb 18 | Website</td><td><span class="tag tag-yellow">Passed</span></td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>Key Insight:</strong> Of 54 genuinely interested leads, <strong>35</strong> came from UK campaigns (65%), <strong>14</strong> from US campaigns, and <strong>5</strong> from Website campaigns. After client qualification: <strong>1</strong> won, <strong>6</strong> actively working, <strong>15</strong> passed/disqualified, <strong>10</strong> closed lost, and <strong>22</strong> new leads not yet worked. Common disqualification reasons include product size/weight, insufficient volume, and compliance requirements.
+  </div>
+</div>
+
+<div style="text-align: center; padding: 20px; color: #a0aec0; font-size: 12px;">
+  Waterside Outreach Report &bull; Prepared by Automathiq &bull; March 2026
+</div>
+
+</div>
+</body>
+</html>
